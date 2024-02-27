@@ -1,0 +1,148 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #e8c2f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 28pt;text-align: center;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+@media (min-width: 681px) {
+  .logo {
+    width: 450px;}
+  .left iframe {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    object-fit: fill;}
+  h1 {font-size: 3rem;}
+  .left {
+    float: left;
+    width: 50%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+    }  
+  .right {
+    float: right;
+    width: 50%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+    
+  }
+  .tile-image {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    }
+  
+  }
+
+
+@media (max-width: 680px) {
+  .logo {
+    width: 350px;  }
+  .left iframe {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    object-fit: fill;}
+    h1 {font-size: 2rem;}
+  .left {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+      }  
+  .right {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .tile-image {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    }
+  }
+
+@media (max-width: 350px) {
+  .logo {
+    width: 200px;}
+  .left iframe {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    object-fit: fill;}
+  h1 {font-size: 1.5rem;}
+  .left {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+    }  
+  .right {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+    
+  }
+  .tile-image {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    }
+  }
+
+@media (max-width: 200px) {
+  .logo {
+    width: 100px;}
+  .left iframe {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    display: inline;
+    object-fit: fill;}
+  h1 {font-size: 1rem;}
+  .left {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  } 
+  .right {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+    
+  }
+  .tile-image {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    }
+
+  }
+
+  p {padding: 30px;}
+  
+  h2 {padding-left: 30px;}
